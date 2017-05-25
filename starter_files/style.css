@@ -1,0 +1,136 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+*{
+  box-sizing:border-box
+}
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 1.6
+
+}
+
+body>div{
+
+}
+
+
+#site_header{
+  background-color: #ff8523;
+  padding: 40px
+}
+
+img{height: 100px}
+
+div>header>a>img{
+  border;
+  margin-bottom: 30px
+}
+
+.main_navigation>a{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2{
+  padding-top: 40px;
+  color:#1fabe5;
+  font-weight: bold;
+}
+
+section{
+  border-bottom-style: solid;
+  border-bottom-color: #dddddd;
+  border-bottom-width: thick;
+}
+
+a{
+  color: #1fabe5
+}
+
+h3{
+  color: #1fabe5
+}
+
+ul{
+  font-weight: bold;
+  line-height: 150%;
+  padding-bottom: 50px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%
+}
+
+td, th {
+  border: 2px solid #046c97;
+  text-align: center;
+  padding: 30px
+}
+
+
+table>thead{
+  background-color: #1fabe5;
+  color: white;
+}
+
+form{
+  background-color: #eee;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.name{
+  background-color: #ff8523;
+  padding: 20px;
+  color: white;
+  border-radius: 10px
+
+}
+
+.city_container{
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+
+#bio{
+  margin-top: 10px;
+  border-color: #1fabe5
+}
+
+.submit_container{
+  padding-top: 20px
+}
+
+#submit_button{
+  background-color: #1fabe5;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border-style: none;
+}
